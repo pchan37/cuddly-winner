@@ -8,3 +8,5 @@
     (back-to-indentation)
     (when (= orig-point (point))
       (move-beginning-of-line 1))))
+
+(bind-key "C-a" 'back-to-indentation-or-beginning-of-line)

@@ -10,3 +10,5 @@
 	  (rename-file filename new-name t)
 	  (set-visited-file-name new-name t t)))))))
 
+(bind-key "M-r" 'rename-file-and-buffer)
+

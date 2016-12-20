@@ -7,4 +7,6 @@
 	(progn
 	  (delete-file filename)
 	  (message "Deleted file %s" filename))))))
-	  
+
+(bind-key "M-m" 'delete-file-and-buffer)
+
